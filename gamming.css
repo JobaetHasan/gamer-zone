@@ -11,15 +11,11 @@ font-family: 'Work Sans', sans-serif;
 
 max-width: 1920px;
 
-
-
 }
 
 
 nav{
     padding:0px 240px;
-    
-    /* height: 130px; */
     background: #FFF;
 box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 display: flex;
@@ -70,17 +66,22 @@ font-weight: 500;
  
 }
 .Follow{
-    width: 262px;
-    height: 56px;
     text-align: center;
-     padding-top: 18px;
+    padding: 15px 24px;
+    
+    
+   
+    
     border-radius: 8px;
 background: rgba(11, 2, 35, 0.10);
 }
-.Follow img{
-    width: 33.916px;
-height: 24px;
-padding-left: 16px;
+
+.Follow i{
+
+padding-left: 20px;
+color: #F61C0D;
+
+
 
 }
 nav li a {
@@ -155,14 +156,14 @@ margin-left: 20px;
 .online-game{
     color: #0B0223;
 text-align:center;
-font-size: 48px;
+font-size: 3rem;
 font-weight: 700;
 padding-top: 100px;
 }
 .game-details{
     color: #534C64;
 text-align: center;
-font-size: 18px;
+font-size: 1.13rem;
 font-weight: 400;
 line-height: 30px;
 }
@@ -184,7 +185,7 @@ background-clip: text;
 
 .card p{
     color: #534C64;
-font-size: 20px;
+font-size: 1.25rem;
 font-weight: 500;
 line-height: 30px; 
 }
@@ -192,6 +193,12 @@ line-height: 30px;
     padding: 0px 240px;
 }
 /* hover */
+.ic{
+    
+    font-size: 30px;
+    border-radius: 50%; 
+
+}
 
 .container {
     position: relative;
@@ -267,7 +274,8 @@ font-size: 48px;
 font-weight: 700;
 line-height: 60px;
 text-align: right;
-align-items: center;
+
+
 }
 
 .play-details{
@@ -278,13 +286,14 @@ align-items: center;
     font-weight: 400;
     line-height: 30px; 
     /* width: 353px; */
-    align-items: center;
+    
 }
 .badage{
     position: relative;
-    top: 380px;
+    top: 360px;
     text-align: center;
     align-items: center;
+    left: 180px;
     
 }
 /* player part */
@@ -468,8 +477,18 @@ padding: 10px 20px;
 font-weight: 600;
 font-size: 0.9rem;
    }
+
+   .funny-video{
+    padding: 0px;
+}
+.image{
+    width: 100%;
+}
     
 }
+
+
+
     
     
     
