@@ -31,24 +31,30 @@ nav div {
      align-items: center;
     
 }
-.nav-container{
-    gap: 20px;
+.nav-container i{
+
+    font-size: 50px;
+    padding-right: 20px;
+   background: #FF42A5; 
+  
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
 }
 
-
-nav img{
-    width: 86.041px;
-height: 40px;
+.nav-container i{
+    color: red;
 
 }
-nav h3{
-font-size: 2.82rem;
+
+.nav-container h3{
+font-size: 2.9rem;
 
 font-weight: 700;
 color: #0B0223;
 
 }
-nav span{
+.nav-container span{
     color: #FF42A5;
     
 }
@@ -346,74 +352,59 @@ background-clip: text;
     margin: 0px 100px;
     
 }
+/* footer part */
 
 footer{
     margin-top: 50px;
-    padding: 100px 240px;
+    padding: 50px 240px;
     text-align: center;
     background: #0B0223;
-    align-items: center;
-    justify-content: space-between;
    
 }
-.foot-conatin{
-    display: flex;
-    margin-left: 500px;
-    
-}
-.foot-conatin h3{
-    text-align: center;
-color: #FFF;
-font-size: 45px;
-font-weight: 700;
-padding-left: 20px;
-
+#footer-cls{
+    color: #FFF;
 
 }
 
-.social-link img{
-    padding: 30px;
+.social-link a{
+    padding: 0px 40px;
+  
+    font-size: 40px;
+    color: #FFF;
 }
 .foot-details{
     display: flex;
     color: #FFF;
-text-align: center;
+    justify-content: center;
 font-size: 18px;
 font-weight: 600;
+
 }
 .foot-details p{
-    padding: 50px;
-    text-align: center;
+     padding: 0px 60px ; 
+   
 }
-.copy-right{
-    /* display: flex; */
+.copy-right, .polocies{
+     
     color: rgba(255, 255, 255, 0.60);
-text-align: center;
-font-family: Work Sans;
+justify-content: center;
 font-size: 16px;
-font-style: normal;
 font-weight: 500;
 line-height: normal;
 } 
 .polocies{
     display: flex;
-    color: rgba(255, 255, 255, 0.60);
-text-align: center;
-font-family: Work Sans;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
 }
 .polocies p{
-    padding: 60px;
-    text-align: center;
-    align-items: center;
-    justify-content: space-between;
+     padding: 0px 60px;
+    
 }
 
 
 /* responsive  part  mobile device */
+
+
+
 @media screen and (max-width: 576px) {
 
 
@@ -535,12 +526,34 @@ display: grid;
 
 justify-content: space-between; */
 }
-    
+   
+
+
+
+footer {
+    padding: 0px;
 }
-.game-viewr img{
-    /* height: 60px;
-    width: 60px; */
+.foot-details{
+   
+    display: grid;
+    grid-template-columns: repeat(3,auto);
 }
+.polocies {
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+}
+.foot-details p, .polocies p{
+    padding: 10px 20px;
+}
+.social-link a{
+    padding: 0px 20px;
+    font-size: 30px;
+}
+
+
+}
+
+
 
 
 
