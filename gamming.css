@@ -149,11 +149,7 @@ margin-top: 25px;
 background: #4EC5F7;
 margin-left: 20px;
 }
-/* .font-awesome{
-    width: 70px;
-    height: 70px;
-    color: #FF42A5;
-} */
+
 
 
 /* online gamae part */
@@ -599,6 +595,8 @@ transform: translate(-50%);
 
 .player{
     padding: 0px ;
+
+    margin: 150px 0px 0px;
     /* margin: 0px 10pxs; */
     
    
@@ -677,7 +675,234 @@ padding-left: 26%;
 
 
 
+/* responsive for medium device  */
 
+@media  screen and (min-width:576px) and (max-width:768px) {
+
+
+    
+
+        nav{
+    
+            box-shadow: none;
+            align-items: center;
+            padding: 0px;
+        }
+       
+        ul{
+            text-align: center;
+            gap: 60px;
+    
+        }
+        .li-div{
+            gap: 36px;
+        }
+        .nav-container{
+            padding-top: 40px;
+        }
+        
+        
+        
+     nav,
+     .li-div,
+     ul,
+     .funny-video,
+     .card-container,
+     .banner
+     {
+        flex-direction: column;
+     }   
+        .banner
+        {
+            
+            padding: 0px;
+            background-image: none;
+            
+        } 
+        .play{
+            
+            margin: 0px;
+            font-size: 2.6rem;
+            padding-top: 20px;
+        }
+    
+    .banner img{
+    
+    width:100%;
+    
+    
+    }
+    
+    .banner-container{
+        background: url(images/Group\ 14.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        position: relative;
+        margin: 80px 0px 0px ;
+        width: 100% ;
+    text-align: center;
+    padding: 80px 0px 50px;
+    
+    
+    }
+    .Click{
+        font-size: 1.1rem;
+     
+    }
+    
+    h2{
+        font-size:5rem;
+    }
+       .btn-primary{
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 1.1rem;
+       }
+    
+       .funny-video{
+        padding: 0px;
+        width: 100%;
+    }
+    .card-container{
+
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+
+
+    }
+    .online-game{
+        font-size: 2.5rem;
+    margin: 0px;
+    }
+    .game-details
+    {
+        font-size: 1rem;
+    }
+    .card p{
+        font-size: 1rem;
+        text-align: center;
+    }
+    
+    .image{
+        width: 100%;
+    }
+    
+    
+    .play-instantly{
+    
+        padding: 0px ;
+        margin-left: 0px;
+        margin-top: 80px;
+    }
+    
+    
+     .play-tag{
+        font-size:2rem;
+    width: 228px;
+    line-height: normal;
+  
+    
+    } 
+    .play-details{
+       font-size: 0.6rem;
+       width: 230px;
+    line-height: 20px;
+    
+
+    } 
+
+     .play-instantly img{
+        width: 100%;
+        /* margin-top: 20px; */
+        
+    } 
+     
+    
+    .badage{
+
+        left: 10%;
+        
+        top: 30vh;
+        
+         } 
+     
+    .play-instat{
+        
+        margin-top: 5%;
+        
+        position:relative;
+        
+        
+    }  
+    
+    .player{
+        padding: 0px ;
+    
+        margin: 150px 0px 0px;
+        
+    }
+    .player-2{
+        
+
+        display:flex;
+	flex-wrap:wrap;
+	margin:75px 10% 0;
+    
+    }
+
+    
+    .game-viewr img{
+        width: 40px;
+        height: 40px;
+    }
+   
+    .game-viewr{
+        margin-top: 0px;
+        gap: 16px;
+        /* margin: 0px 9%; */
+        
+    
+    
+    }
+
+  
+    .game-viewr p{
+        font-size: 15px;
+        padding-right: 0px;
+        
+    }
+    
+       
+    footer {
+        padding: 0px 0px 50px;
+    }
+    #footer-cls{
+        /* font-size: 2rem; */
+    }
+    .foot-details{
+       
+        display: grid; 
+         grid-template-columns: repeat(3,auto); 
+    }
+    .polocies {
+        display: grid; 
+     grid-template-columns: repeat(2,auto); 
+    }
+    .foot-details p, .polocies p{
+        padding: 10px 20px; 
+    }
+    .social-link a{
+        padding: 0px 20px;
+        font-size: 30px;
+    }
+    .foot-details, .copy-right, .polocies{
+         font-size: 16px; 
+    }
+    
+    
+    
+
+}
 
     
     
