@@ -96,11 +96,7 @@ nav li a {
 
 /* end nav part */
 
-
-
-
 /* banner section */
-
 
 .banner{
     display: flex;
@@ -339,8 +335,6 @@ justify-content: safe;
 
 }
 
-
-
 .player{
     
     margin-top: 200px;
@@ -380,7 +374,6 @@ background-clip: text;
 -webkit-text-fill-color: transparent;
 
 }
-
 
 
 /* footer part */
@@ -640,7 +633,10 @@ transform: translate(-50%);
 
    
 footer {
-    padding: 0px;
+    padding: 0px 0px 50px;
+}
+#footer-cls{
+    font-size: 2rem;
 }
 .foot-details{
    
@@ -657,6 +653,9 @@ footer {
 .social-link a{
     padding: 0px 20px;
     font-size: 30px;
+}
+.foot-details, .copy-right, .polocies{
+    font-size: 12px;
 }
 
 
