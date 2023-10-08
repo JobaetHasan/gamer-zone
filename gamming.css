@@ -319,6 +319,8 @@ width: 341px;
     
     
 }
+
+
 /* player part */
 
 .player-2{
@@ -346,11 +348,10 @@ justify-content: safe;
 .team-1{
      display: flex;
     justify-content: space-between;
-    padding: 30px; 
+    padding: 30px;  
     
 }
 .game-viewr img{ 
-    /* width: 100%; */
     width: 60px;
     height: 60px;
 }
@@ -358,7 +359,7 @@ justify-content: safe;
     display: flex;
     gap: 16px;
     margin-top: 20px;
-    /* height: 80px; */
+
 }
 .game-viewr p{
     color: #0B0223;
@@ -377,10 +378,8 @@ background-clip: text;
 -webkit-text-fill-color: transparent;
 
 }
-/* #second-row{
-    margin: 0px 100px;
-    
-} */
+
+
 
 /* footer part */
 
@@ -575,6 +574,7 @@ transform: translate(-50%);
 }
 .play-instantly img{
     width: 80%;
+    margin-top: 20px;
     
 }
 .ply-img{
@@ -583,6 +583,7 @@ transform: translate(-50%);
 .badage img{
     width:50%;
     position: absolute;
+    
     
 }
 .badage{
@@ -606,25 +607,39 @@ transform: translate(-50%);
 
 
 .player{
-    padding: 0px;
-    /* width: 100%; */
+    padding: 0px ;
+    /* margin: 0px 10pxs; */
+    
    
 }
 .player-2{
     display: grid;
     grid-template-columns: repeat(3,auto);
-    justify-content: center;
+    justify-content: space-between;
+    gap: 20px 0px;
+    padding: 0px 10px;
+    
+ 
 }
 .game-viewr img{
-    /* width: 30px;
-    height: 30px; */
+    width: 27px;
+    height: 27px;
 }
-/* .team-1{
-    
-display: grid;
+#s-pd{
+    margin-left: 0px;
+}
+.game-viewr{
+    margin-top: 0px;
+    gap: 5px;
 
-justify-content: space-between;
-} */
+
+}
+.game-viewr p{
+    font-size: 9px;
+    padding-right: 0px;
+    
+}
+
    
 footer {
     padding: 0px;
