@@ -636,6 +636,11 @@ footer {
 #footer-cls{
     font-size: 2rem;
 }
+#footer-cls i{
+    font-size: 30px;
+
+}
+
 .foot-details{
    
     display: grid;
@@ -822,7 +827,8 @@ padding-left: 26%;
 
         left: 10%;
         
-        top: 30vh;
+        top: 43vh;
+        
         
          } 
      
@@ -904,7 +910,15 @@ padding-left: 26%;
 
 }
 
-    
+    @media screen and (min-width:769px){
+
+body{
+    padding: 0px;
+    width: fit-content;
+}
+
+
+    }
     
     
     
