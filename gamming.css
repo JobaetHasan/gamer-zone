@@ -69,10 +69,13 @@ nav ul{
 nav li {
     list-style: none;
     margin-right: 32px; 
-    color: #3C354F;
+    
 font-size: 1.12rem;
 font-weight: 500;
  
+}
+nav a{
+    color:#3C354F;
 }
 .Follow{
     text-align: center;
@@ -120,7 +123,6 @@ background-clip: text;
 }
 .play{
     padding-top: 140px;
-    /* margin-top: 140px; */
     margin: 10px;
     color: #0B0223;
 font-size: 3rem;
@@ -457,6 +459,7 @@ line-height: normal;
     }
     
     
+    
  nav,
  .li-div,
  ul,
@@ -471,10 +474,7 @@ line-height: normal;
         flex-direction:column-reverse;
         padding: 0px;
         background-image: none;
-        align-items: center;
-        justify-content: center;
         margin-top: 80px;
-       
       
     }
     .play{
@@ -498,18 +498,16 @@ width:100%;
     margin: 80px 0px 0px ;
     width: 100% ;
 text-align: center;
-padding-bottom: 20px;
+
 
 }
 .Click{
     font-size: 0.9rem;
-   
+    text-align: justify;
+padding-left: 16%;
 }
-#banner-p{
- text-align: left;
- padding-left: 15%;
+.banner-p{
  
-
 }
 h2{
     font-size: 3.8rem;
@@ -662,6 +660,20 @@ footer {
 }
 
 
+}
+
+
+
+@media  screen and (min-width:390px) and (max-width:576px) {
+
+.Click{
+padding-left: 26%;
+
+}
+.badage{
+    top: 215px;
+}
+    
 }
 
 
